@@ -2214,7 +2214,7 @@ function GuiLibrary:CreateSettingsTab(window)
     updateSettingsCanvas()
     local settingsTab={Button=nil,Content=tabContent,Name="Settings",Elements={},Order=999}
     window.Tabs["Settings"]=settingsTab
-    GuiLibrary:CreateSection(settingsTab,"Library by cyber_modz")
+    GuiLibrary:CreateSection(settingsTab,"Library By Cesarez")
     GuiLibrary:CreateKeybind(settingsTab,"Toggle GUI",Enum.KeyCode.Insert,function() window.Toggle() end)
     GuiLibrary:CreateDropdown(settingsTab,"Theme",{"Dark","Light","Midnight","Forest","Ocean"},function(t)
         if not themes[t] then return end
